@@ -53,7 +53,7 @@ class Snake:
     pygame.K_LEFT: {'name': 'left', 'movement': Point(-1, 0), 'opposite': 'right'}
   }
 
-  # inisialisasi variabel posisi dan atah(arah awal ke kanan)
+  # inisialisasi variabel posisi dan arah(arah awal ke kanan)
   def __init__(self, posisi, arah = 'right'):
     self.__squares = [Square(self.color, posisi)]
     self.__arah = self.directions[pygame.K_RIGHT]
@@ -147,7 +147,7 @@ class Game_play:
       if event.type == pygame.QUIT:
         pygame.quit()
         quit()
-      # jike menekan tombol maka akan mendeteksi apakah itu key yang benar  
+      # jika menekan tombol maka akan mendeteksi apakah itu key yang benar  
       elif event.type == pygame.KEYDOWN:  
         # berfungsi agar pemain bisa keluar dari game dengan menekan tombol esc  
         if event.key == pygame.K_ESCAPE:
