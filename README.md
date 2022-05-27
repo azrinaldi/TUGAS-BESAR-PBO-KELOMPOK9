@@ -15,7 +15,10 @@ Snake Game adalah sebuah permainan dimana pemain mengendalikan sebuah garis yang
 Snake game dibuat dengan menerapkan prinsip-prinsip dari mata kuliah Pemrograman Berorientasi Objek (PBO) yaitu, enkapkulasi, abstraksi dan inheritance.
 Dengan menggunakan docker, kami akan membuat kontainer yang akan berisi program dari Snake Game. Docker sebagai sebuah wadah dapat digunakan sebagai wrapper untuk "membungkus" program game Snake.
 
-###Build Docker Image <br />
-docker build -t (nama image)
-###Run Docker Image <br />
-docker run -it -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=unix$DISPLAY --device /dev/snd (nama image)
+**Build Docker Image <br />
+
+`docker build -t (nama image)`
+
+**Run Docker Image <br />
+
+`docker run -it -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=unix$DISPLAY --device /dev/snd (nama image)`
