@@ -15,6 +15,26 @@ Snake Game adalah sebuah permainan dimana pemain mengendalikan sebuah garis yang
 Snake game dibuat dengan menerapkan prinsip-prinsip dari mata kuliah Pemrograman Berorientasi Objek (PBO) yaitu, enkapkulasi, abstraksi dan inheritance.
 Dengan menggunakan docker, kami akan membuat kontainer yang digunakan sebagai wrapper untuk "membungkus" program game Snake.
 
+Identifikasi Kelas dan Objek :
+1. CLASS SQUARE
+       Class Square berfungsi sebagai pengaturan segala sesuatu yang berhubungan dengan semua elemen pada food  atau makanan untuk ular nanti, seperti pengaturan warna makanan, penempatan lokasi, hingga melakukan pengaturan rumus untuk lokasi makanan agar bisa berpindah pindah. Pada class ini akan menjadi tubuh untuk objek food dan snake.
+
+2. CLASS SNAKE
+    Class Snake berfungsi sebagai pengaturan segala sesuatu yang berhubungan dengan semua elemen pada ular, seperti penginput file berupa gambar yang berupa kepala serta badan ular, melakukan pengaturan jika ular tersebut makan maka panjangnya akan bertambah dan juga berfungsi untuk melakukan pengaturan rumus bagaimana ular bergerak di dalam game. Objek dari kelas ini adalah Snake.
+    
+3. CLASS GAME_PLAY
+  Class GamePlay berfungsi sebagai pengaturan yang berhubungan dengan gameplaynya seperti untuk mengidentifikasian font yang digunakan, pengaturan peletakan elemen, pengaturan cara bermain pemain seperti fungsi ke bawah, atas, kanan dan kiri maupun level kesulitannya. Pada class menampilkan hasil point yang didapatkan.
+  
+4. CLASS POINT
+Class Point berfungsi sebaga mengatur perhitungan skor yang didapatkan jika ular telah memakan makanannya. 
+
+Penerapan pada PBO :
+pda game ini akan diterapkan 2 prinsip PBO yaitu:
+a) Enkapsulasi adalah metode untuk mengatur struktur sebuah kelas   dengan melakukan penyembunyian atribut dan method. Enkapsulasi digunakan untuk menghindari terjadinya kesalahan manipulasi pada kode program game snake.
+
+b) Abstraksi adalah metode untuk menyembunyikan detail fungsionalitas  dari sebuah fungsi.  Metode ini untuk menyembunyikan kelas maupun method yang tidak perlu ditampilkan kepada pemain.
+Inheritance adalah metode untuk menurukan atribut dari parent ke child. Metode ini digunakan pada kelas Snake sebagai child dari kelas Square
+
 Build Docker Image<br />
 
 `docker build -t (nama image)`
