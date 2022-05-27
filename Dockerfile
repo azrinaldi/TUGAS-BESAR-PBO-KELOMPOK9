@@ -19,5 +19,4 @@ ADD . .
 
 ENV NAME World
 
-
 CMD ["python3", "main.py", "-w", "-d"]
