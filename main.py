@@ -60,7 +60,7 @@ class Snake:
     # atribut is_alive untuk mendeklarasikan ular hidup
     self.is_alive = True
 
-  #method move untuk mengatur directions
+  # method move untuk mengatur directions
   def move(self, key):
     # mengubah arah sesuai dengan key
     if (key in self.directions and self.directions[key]['name'] != self.__arah['opposite']):
@@ -68,7 +68,7 @@ class Snake:
     # membuat new_square sesuai dengan direction menggunakan method __add___ dari point class
     new_square = Square(self.color, self.__squares[-1].posisi + self.__arah['movement'])
 
-    #fungsi if untuk pengecekan apakah ular masih hidup atau tidak
+    # fungsi if untuk pengecekan apakah ular masih hidup atau tidak
     if (new_square in self.__squares or
     new_square.posisi.x < 0 or new_square.posisi.x >= Game_play.lebar or
     new_square.posisi.y < 0 or new_square.posisi.y >= Game_play.panjang):
@@ -102,7 +102,7 @@ class Game_play:
   panjang_screen = panjang * Square.keliling_square
   lebar_screen = lebar * Square.keliling_square
 
-  #inisialisasi variabel dengan memanggil module pygame
+  # inisialisasi variabel dengan memanggil module pygame
   def __init__(self):
     # atribut screen
     self.__screen = pygame.display.set_mode((self.lebar_screen, self.panjang_screen))
