@@ -23,7 +23,7 @@ Run Docker Image <br />
 
 `docker run -it -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=unix$DISPLAY --device /dev/snd (nama image)`
 
-Video Demo Kontainer<br />
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/r6xeJqtRL8Y/0.jpg)](https://www.youtube.com/watch?v=r6xeJqtRL8Y)
+Video Demo Kontainer
 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/r6xeJqtRL8Y/0.jpg)](https://www.youtube.com/watch?v=r6xeJqtRL8Y) <br />
 Link: https://youtu.be/r6xeJqtRL8Y
