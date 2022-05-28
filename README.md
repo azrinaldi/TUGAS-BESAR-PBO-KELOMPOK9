@@ -29,11 +29,12 @@ Identifikasi Kelas dan Objek :
 Class Point berfungsi sebaga mengatur perhitungan skor yang didapatkan jika ular telah memakan makanannya. 
 
 Penerapan pada PBO :
-pda game ini akan diterapkan 2 prinsip PBO yaitu:
+Pada game ini akan diterapkan 3 prinsip PBO yaitu:
 a) Enkapsulasi adalah metode untuk mengatur struktur sebuah kelas   dengan melakukan penyembunyian atribut dan method. Enkapsulasi digunakan untuk menghindari terjadinya kesalahan manipulasi pada kode program game snake.
 
 b) Abstraksi adalah metode untuk menyembunyikan detail fungsionalitas  dari sebuah fungsi.  Metode ini untuk menyembunyikan kelas maupun method yang tidak perlu ditampilkan kepada pemain.
-Inheritance adalah metode untuk menurukan atribut dari parent ke child. Metode ini digunakan pada kelas Snake sebagai child dari kelas Square
+
+c) Inheritance adalah metode untuk menurukan atribut dari parent ke child. Metode ini digunakan pada kelas Snake sebagai child dari kelas Square.
 
 Build Docker Image<br />
 
