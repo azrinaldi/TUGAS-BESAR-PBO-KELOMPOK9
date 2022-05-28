@@ -30,6 +30,7 @@ Class Point berfungsi sebaga mengatur perhitungan skor yang didapatkan jika ular
 
 Penerapan pada PBO :
 Pada game ini akan diterapkan 3 prinsip PBO yaitu:
+
 a) Enkapsulasi adalah metode untuk mengatur struktur sebuah kelas   dengan melakukan penyembunyian atribut dan method. Enkapsulasi digunakan untuk menghindari terjadinya kesalahan manipulasi pada kode program game snake.
 
 b) Abstraksi adalah metode untuk menyembunyikan detail fungsionalitas  dari sebuah fungsi.  Metode ini untuk menyembunyikan kelas maupun method yang tidak perlu ditampilkan kepada pemain.
