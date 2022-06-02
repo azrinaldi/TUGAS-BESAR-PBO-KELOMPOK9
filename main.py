@@ -42,7 +42,7 @@ class Square:
   keliling_square = panjang_square + lebar_square * 2
 
 # kelas Snake sebagai objek yang digerakkan oleh player
-class Snake:
+class Snake(Square): #Inheritance
   # warna dari snake
   color = '#00FF00'
   # menggunakan direction dari module pygame
@@ -203,7 +203,6 @@ class Game_play:
     pygame.display.update()
     
 # method run untuk memainkan game
-<<<<<<< HEAD
 pygame.display.init()
 screen = pygame.display.set_mode((680, 510))
 background = '#152238'
@@ -225,6 +224,3 @@ while paused:
     screen.blit(text_space, (340 - text_space.get_width() / 2, 450))
     pygame.display.update()
 Game_play().run()
-=======
-Game_play().run()
->>>>>>> f15034622babb631810a320b238b46955a554c63
