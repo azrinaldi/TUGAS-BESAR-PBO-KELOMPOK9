@@ -34,7 +34,7 @@ Dengan menggunakan docker, kami akan membuat kontainer yang digunakan sebagai wr
   Class GamePlay berfungsi sebagai pengaturan yang berhubungan dengan gameplaynya seperti untuk mengidentifikasian font yang digunakan, pengaturan peletakan elemen, pengaturan cara bermain pemain seperti fungsi ke bawah, atas, kanan dan kiri maupun level kesulitannya. Pada class menampilkan hasil point yang didapatkan.
   
 4. CLASS POINT
-Class Point berfungsi sebaga mengatur perhitungan skor yang didapatkan jika ular telah memakan makanannya. 
+Class Point berfungsi sebagai koordinat untuk kelas square dan kelas snake. 
 
 ## Penerapan pada PBO :
 
