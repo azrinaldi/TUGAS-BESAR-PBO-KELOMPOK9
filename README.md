@@ -50,4 +50,8 @@ Video Demo Kontainer
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/r6xeJqtRL8Y/0.jpg)](https://www.youtube.com/watch?v=r6xeJqtRL8Y)
 
+UML Class Diagram
+![Image 2022-06-02 at 12.17.35.jpeg]( {https://github.com/azrinaldi/TUGAS-BESAR-PBO-KELOMPOK9/blob/main/Image%202022-06-02%20at%2012.17.35.jpeg} )
+
+
 
