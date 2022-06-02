@@ -1,7 +1,7 @@
 # TUGAS BESAR PBO KELOMPOK 9 & HANDS ON DOCKER 2 SISTEM OPERASI
 
 Anggota: <br />
-120140127   Dicko Azrinaldi (Programmer)
+120140127   Dicko Azrinaldi (Project Leader)
 
 120140236   Bagasyah Kusetyoutomo Dhonanurhakiim (Programmer)
 
