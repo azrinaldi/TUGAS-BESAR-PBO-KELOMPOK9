@@ -53,14 +53,14 @@ class Snake:
     pygame.K_LEFT: {'name': 'left', 'movement': Point(-1, 0), 'opposite': 'right'}
   }
 
-  # inisialisasi variabel posisi dan atah(arah awal ke kanan)
+  # inisialisasi variabel posisi dan arah(arah awal ke kanan)
   def __init__(self, posisi, arah = 'right'):
     self.__squares = [Square(self.color, posisi)]
     self.__arah = self.directions[pygame.K_RIGHT]
     # atribut is_alive untuk mendeklarasikan ular hidup
     self.is_alive = True
 
-  #method move untuk mengatur directions
+  # method move untuk mengatur directions
   def move(self, key):
     # mengubah arah sesuai dengan key
     if (key in self.directions and self.directions[key]['name'] != self.__arah['opposite']):
@@ -68,7 +68,7 @@ class Snake:
     # membuat new_square sesuai dengan direction menggunakan method __add___ dari point class
     new_square = Square(self.color, self.__squares[-1].posisi + self.__arah['movement'])
 
-    #fungsi if untuk pengecekan apakah ular masih hidup atau tidak
+    # fungsi if untuk pengecekan apakah ular masih hidup atau tidak
     if (new_square in self.__squares or
     new_square.posisi.x < 0 or new_square.posisi.x >= Game_play.lebar or
     new_square.posisi.y < 0 or new_square.posisi.y >= Game_play.panjang):
@@ -102,7 +102,7 @@ class Game_play:
   panjang_screen = panjang * Square.keliling_square
   lebar_screen = lebar * Square.keliling_square
 
-  #inisialisasi variabel dengan memanggil module pygame
+  # inisialisasi variabel dengan memanggil module pygame
   def __init__(self):
     # atribut screen
     self.__screen = pygame.display.set_mode((self.lebar_screen, self.panjang_screen))
@@ -147,7 +147,7 @@ class Game_play:
       if event.type == pygame.QUIT:
         pygame.quit()
         quit()
-      # jike menekan tombol maka akan mendeteksi apakah itu key yang benar  
+      # jika menekan tombol maka akan mendeteksi apakah itu key yang benar  
       elif event.type == pygame.KEYDOWN:  
         # berfungsi agar pemain bisa keluar dari game dengan menekan tombol esc  
         if event.key == pygame.K_ESCAPE:
@@ -203,6 +203,7 @@ class Game_play:
     pygame.display.update()
     
 # method run untuk memainkan game
+<<<<<<< HEAD
 pygame.display.init()
 screen = pygame.display.set_mode((680, 510))
 background = '#152238'
@@ -224,3 +225,6 @@ while paused:
     screen.blit(text_space, (340 - text_space.get_width() / 2, 450))
     pygame.display.update()
 Game_play().run()
+=======
+Game_play().run()
+>>>>>>> f15034622babb631810a320b238b46955a554c63
