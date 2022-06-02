@@ -1,16 +1,17 @@
 # TUGAS BESAR PBO KELOMPOK 9 & HANDS ON DOCKER 2 SISTEM OPERASI
 
 Anggota: <br />
-120140127   Dicko Azrinaldi (Programmer) <br />
-120140236   Bagasyah Kusetyoutomo Dhonanurhakiim (Programmer) <br />
+120140127   Dicko Azrinaldi (Project Leader)
 
-120140045   Christopher Gilbert Bontor Rumapea (Programmer) <br />
+120140236   Bagasyah Kusetyoutomo Dhonanurhakiim (Programmer)
 
-120140232   Aaron Noah Kalalo (Editor) <br />
+120140045   Christopher Gilbert Bontor Rumapea (Programmer)
 
-120140061   Maura Diviarani (Editor) <br />
+120140232   Aaron Noah Kalalo (Editor) 
 
-120140165   Dini Safitri (Designer) <br />
+120140061   Maura Diviarani (Editor)
+
+120140165   Dini Safitri (Designer)
 
 ## "Snake Game (python) di-wrap dengan Docker" <br />
 
@@ -19,10 +20,7 @@ Snake Game adalah sebuah permainan dimana pemain mengendalikan sebuah garis yang
 Snake game dibuat dengan menerapkan prinsip-prinsip dari mata kuliah Pemrograman Berorientasi Objek (PBO) yaitu, enkapkulasi, abstraksi dan inheritance.
 Dengan menggunakan docker, kami akan membuat kontainer yang digunakan sebagai wrapper untuk "membungkus" program game Snake.
 
-## Paket Library yang dibutuhkan untuk menjalankan aplikasi :
-- run command `pip install pygame` di cmd
-
-## Identifikasi Kelas dan Objek :
+## Identifikasi Kelas dan Objek 
 1. CLASS SQUARE
        Class Square berfungsi sebagai pengaturan segala sesuatu yang berhubungan dengan semua elemen pada food  atau makanan untuk ular nanti, seperti pengaturan warna makanan, penempatan lokasi, hingga melakukan pengaturan rumus untuk lokasi makanan agar bisa berpindah pindah. Pada class ini akan menjadi tubuh untuk objek food dan snake.
 
@@ -35,7 +33,7 @@ Dengan menggunakan docker, kami akan membuat kontainer yang digunakan sebagai wr
 4. CLASS POINT
 Class Point berfungsi sebagai koordinat untuk kelas square dan kelas snake. 
 
-## Penerapan pada PBO :
+## Penerapan PBO 
 
 Pada game ini akan diterapkan 3 prinsip PBO yaitu:
 
@@ -44,6 +42,15 @@ a) Enkapsulasi adalah metode untuk mengatur struktur sebuah kelas   dengan melak
 b) Abstraksi adalah metode untuk menyembunyikan detail fungsionalitas  dari sebuah fungsi.  Metode ini untuk menyembunyikan kelas maupun method yang tidak perlu ditampilkan kepada pemain.
 
 c) Inheritance adalah metode untuk menurukan atribut dari parent ke child. Metode ini digunakan pada kelas Snake sebagai child dari kelas Square.
+
+d) Polymorphism  adalah sebuah konsep OOP di mana class memiliki banyak “bentuk” method yang berbeda, meskipun namanya sama. Polymorphism digunakan dalam bentuk operator sepetri __add dan __eq.
+
+## Depedensi atau Library 
+- run command `pip install pygame` di cmd
+- py game : Libarary utama untuk menjalankan game di python
+
+
+## DOCKER
 
 Build Docker Image<br />
 
