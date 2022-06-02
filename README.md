@@ -20,10 +20,6 @@ Snake Game adalah sebuah permainan dimana pemain mengendalikan sebuah garis yang
 Snake game dibuat dengan menerapkan prinsip-prinsip dari mata kuliah Pemrograman Berorientasi Objek (PBO) yaitu, enkapkulasi, abstraksi dan inheritance.
 Dengan menggunakan docker, kami akan membuat kontainer yang digunakan sebagai wrapper untuk "membungkus" program game Snake.
 
-## Depedensi atau Library 
-- run command `pip install pygame` di cmd
-- py game : Libarary utama untuk menjalankan game di python
-
 ## Identifikasi Kelas dan Objek 
 1. CLASS SQUARE
        Class Square berfungsi sebagai pengaturan segala sesuatu yang berhubungan dengan semua elemen pada food  atau makanan untuk ular nanti, seperti pengaturan warna makanan, penempatan lokasi, hingga melakukan pengaturan rumus untuk lokasi makanan agar bisa berpindah pindah. Pada class ini akan menjadi tubuh untuk objek food dan snake.
@@ -46,6 +42,13 @@ a) Enkapsulasi adalah metode untuk mengatur struktur sebuah kelas   dengan melak
 b) Abstraksi adalah metode untuk menyembunyikan detail fungsionalitas  dari sebuah fungsi.  Metode ini untuk menyembunyikan kelas maupun method yang tidak perlu ditampilkan kepada pemain.
 
 c) Inheritance adalah metode untuk menurukan atribut dari parent ke child. Metode ini digunakan pada kelas Snake sebagai child dari kelas Square.
+
+d) Polymorphism  adalah sebuah konsep OOP di mana class memiliki banyak “bentuk” method yang berbeda, meskipun namanya sama. Polymorphism digunakan dalam bentuk operator sepetri __add dan __eq.
+
+## Depedensi atau Library 
+- run command `pip install pygame` di cmd
+- py game : Libarary utama untuk menjalankan game di python
+
 
 Build Docker Image<br />
 
