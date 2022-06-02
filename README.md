@@ -1,7 +1,7 @@
 # TUGAS BESAR PBO KELOMPOK 9 & HANDS ON DOCKER 2 SISTEM OPERASI
 
 Anggota: <br />
-120140127   Dicko Azrinaldi as Programmer <br / > 
+120140127   Dicko Azrinaldi as Programmer <br / >
 120140236   Bagasyah Kusetyoutomo Dhonanurhakiim as Programmer <br />
 120140045   Christopher Gilbert Bontor Rumapea <br />
 120140232   Aaron Noah Kalalo <br />
