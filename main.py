@@ -118,12 +118,12 @@ class Game_play:
     self.__clock = pygame.time.Clock()
     self.__reset()
     self.score = 0
-  #method run berfungsi untuk mengatur kecepatan 
+  #method run berfungsi untuk  mengatur kecepatan 
   def run(self):   
     while True:
       pygame.time.delay(90)
       self.__clock.tick(90)
-	# memanggil beberapa method untuk running game
+	# dan memanggil beberapa method untuk running game
       self.__cek_events()
       self.__cek_eat()
       self.__tampilkan()
@@ -158,6 +158,7 @@ class Game_play:
           self.__arah_key = event.key
         # reset game ketika ular mati dan player menekan "SPACE"
         elif not self.__snake.is_alive and event.key == pygame.K_SPACE:
+          self.score = 0
           self.__reset()
   # method cek untuk memanggil generate_food atau shrink
   def __cek_eat(self):
@@ -184,6 +185,10 @@ class Game_play:
     if self.__snake.is_alive:
       self.__snake.tampilkan(self.__screen)
       self.__food.tampilkan(self.__screen)
+      text_score = pygame.font.SysFont('Courier New',20).render("SCORE :",True,'#ffffff')
+      self.__screen.blit(text_score, (50 - text_score.get_width() / 2, 10))
+      text_score = pygame.font.SysFont('Courier New',20).render(str(self.score),True,'#ffffff')
+      self.__screen.blit(text_score, (110 - text_score.get_width() / 2, 10))
     else:
       # menghentikan music    
       pygame.mixer.music.pause()    
@@ -197,6 +202,25 @@ class Game_play:
 
     pygame.display.update()
     
-  
 # method run untuk memainkan game
+pygame.display.init()
+screen = pygame.display.set_mode((680, 510))
+background = '#152238'
+screen.fill(background)
+pygame.display.set_caption("Snake")
+pygame.font.init()
+font = pygame.font.Font(pygame.font.get_default_font(), 30)
+paused = True
+while paused:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            pygame.quit()
+            quit()
+        elif event.type == pygame.KEYDOWN:
+            paused = False
+    text_play = pygame.font.SysFont('Courier New',50).render("PLAY THE GAME",True,'#ffffff')
+    screen.blit(text_play, (340 - text_play.get_width() / 2, 220))                
+    text_space = pygame.font.SysFont('Courier New',15).render("Press any key",True,'#ffffff')
+    screen.blit(text_space, (340 - text_space.get_width() / 2, 450))
+    pygame.display.update()
 Game_play().run()
