@@ -2,7 +2,7 @@
 
 Anggota: <br />
 120140127   Dicko Azrinaldi (Programmer) <br / > 
-120140236   Bagasyah Kusetyoutomo Dhonanurhakiim (Programmer) <br /
+120140236   Bagasyah Kusetyoutomo Dhonanurhakiim (Programmer) <br />
 120140045   Christopher Gilbert Bontor Rumapea <br />
 120140232   Aaron Noah Kalalo <br />
 120140061   Maura Diviarani ( Editor) <br / >
