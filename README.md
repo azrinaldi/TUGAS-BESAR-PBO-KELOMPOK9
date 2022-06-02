@@ -50,6 +50,7 @@ d) Polymorphism  adalah sebuah konsep OOP di mana class memiliki banyak “bentu
 - py game : Libarary utama untuk menjalankan game di python
 
 
+##DOCKER
 Build Docker Image<br />
 
 `docker build -t (nama image)`
