@@ -1,17 +1,16 @@
 # TUGAS BESAR PBO KELOMPOK 9 & HANDS ON DOCKER 2 SISTEM OPERASI
 
 Anggota: <br />
-120140127   Dicko Azrinaldi (Programmer)
+120140127   Dicko Azrinaldi (Programmer) <br />
+120140236   Bagasyah Kusetyoutomo Dhonanurhakiim (Programmer) <br />
 
-120140236   Bagasyah Kusetyoutomo Dhonanurhakiim (Programmer)
+120140045   Christopher Gilbert Bontor Rumapea (Programmer) <br />
 
-120140045   Christopher Gilbert Bontor Rumapea (Programmer)
+120140232   Aaron Noah Kalalo (Editor) <br />
 
-120140232   Aaron Noah Kalalo (Editor) 
+120140061   Maura Diviarani (Editor) <br />
 
-120140061   Maura Diviarani (Editor)
-
-120140165   Dini Safitri (Designer)
+120140165   Dini Safitri (Designer) <br />
 
 ## "Snake Game (python) di-wrap dengan Docker" <br />
 
